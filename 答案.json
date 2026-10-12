@@ -88,7 +88,7 @@
     },
     {
       "题号": "M022-S007",
-      "查询语句": "country=\"JP\" && body=\"Hikvision\""
+      "查询语句": "country=\"JP\" && (app=\"海康威视-视频监控\" || app=\"HIKVISION-视频监控\" || body=\"Hikvision\")"
     },
     {
       "题号": "M023-S002",

@@ -24,7 +24,7 @@ ANSWERS = {
     "M019-S010": 'protocol="memcached" && country="US"',
     "M020-S005": 'protocol="ftp" && base_protocol="tcp"',
     "M021-S010": 'protocol="ssh" && banner="OpenSSH_10.4"',
-    "M022-S007": 'country="JP" && body="Hikvision"',
+    "M022-S007": 'country="JP" && (app="海康威视-视频监控" || app="HIKVISION-视频监控" || body="Hikvision")',
     "M023-S002": 'host*="?.?.163.com"',
     "M024-S005": 'product.version="10.0.0"',
     "M025-S010": 'category="中间件"',
